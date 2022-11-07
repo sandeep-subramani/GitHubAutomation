@@ -10,4 +10,4 @@ jobs:
       - run: npm -v && node -v
       - run: npm install
       - run: expo build:web
-      - run: ./../../script.mjs
+      - run: ./.github/scripts/script.mjs
