@@ -5,4 +5,5 @@ jobs:
     runs-on: macos-latest
     steps: 
       - uses: actions/checkout@v2.5.0
+      - run: chmod 777 ./.github/scripts/script.sh
       - run: ./.github/scripts/script.sh
