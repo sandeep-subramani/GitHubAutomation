@@ -10,5 +10,5 @@ jobs:
       - run: npm -v && node -v
       - run: npm install
       - run: expo build:web
-      - run: cd web-build
+      - working-directory: ./web_build
       - run: ls
