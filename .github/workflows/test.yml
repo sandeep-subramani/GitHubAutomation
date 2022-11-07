@@ -5,5 +5,5 @@ jobs:
     runs-on: macos-latest
     steps: 
       - uses: actions/checkout@v2.5.0
-      - run: git update-index --chmod=+x ./.github/scripts/backend_decrypt.sh
+      - run: git update-index --chmod=+x ./.github/scripts/script.mjs
       - run: ./.github/scripts/script.mjs
