@@ -9,5 +9,4 @@ jobs:
         with: 
           node-version: 14
       - run: npm install
-      - run: cd node_modules
-      - run: ls
+      - run: npm run web
