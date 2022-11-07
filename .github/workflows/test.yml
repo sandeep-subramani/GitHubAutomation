@@ -4,6 +4,10 @@ jobs:
   check-node-version: 
     runs-on: macos-latest
     steps: 
+      - uses: actions/checkout@v2.5.0
       - run: npm install -g npm
       - run: npm -v && node -v
       - run: npm install
+      - run: expo build:web
+      - run: cd web-build
+      - run: ls
