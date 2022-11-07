@@ -1,6 +1,4 @@
-
-
 'use strict';
 
-cd ('web-build');
+cd ('assets');
 await $`ls`;
