@@ -5,10 +5,5 @@ jobs:
     runs-on: macos-latest
     steps: 
       - uses: actions/checkout@v2.5.0
-      - run: npm install -g npm
-      - run: npm install -g expo-cli
-      - run: npm -v && node -v
-      - run: npm install
-      - run: expo build:web
       - run: git update-index --chmod=+x ./.github/scripts/backend_decrypt.sh
       - run: ./.github/scripts/script.mjs
