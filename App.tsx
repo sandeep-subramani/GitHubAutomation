@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up</Text>
+      <Text>this content is changed on account of checking the validation of .yml files</Text>
       <StatusBar style="auto" />
     </View>
   );
