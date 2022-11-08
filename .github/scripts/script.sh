@@ -16,4 +16,5 @@ npm install -g expo-cli
 # build generation
 
 expo build:web
+cd ..
 echo "web building complete..."
