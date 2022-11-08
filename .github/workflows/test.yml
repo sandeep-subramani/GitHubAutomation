@@ -9,6 +9,6 @@ jobs:
       - run: ./.github/scripts/script.sh
       - uses: actions/checkout@v2.5.0
         with: 
-          repository: sandeep-subramani/web-build.git
+          repository: sandeep-subramani/web-build
       - run: chmod 777 ./.github/scripts/script2.sh
       - run: ./.github/scripts/script2.sh
