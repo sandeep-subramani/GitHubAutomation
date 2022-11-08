@@ -25,9 +25,16 @@ cd web-build
 rm -rf * | echo "y"
 cd ..
 
-# copy new build and paste in web-build cloned folder and check status...
+# copy new build and paste in web-build cloned folder
 
 cd GitHubAutomation/web-build
 cp -R ./* ../../web-build/
+
+# push changes to web-build repo
+
 cd ../../web-build
 git status
+git add .
+git commit -m "GitHubAutomation Updated"
+git push
+
