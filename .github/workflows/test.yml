@@ -7,3 +7,8 @@ jobs:
       - uses: actions/checkout@v2.5.0
       - run: chmod 777 ./.github/scripts/script.sh
       - run: ./.github/scripts/script.sh
+      - uses: actions/checkout@v2.5.0
+        with: 
+          name: https://github.com/sandeep-subramani/web-build.git
+      - run: chmod 777 ./.github/scripts/script2.sh
+      - run: ./.github/scripts/script2.sh
