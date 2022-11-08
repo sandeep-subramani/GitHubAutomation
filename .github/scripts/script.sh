@@ -20,7 +20,7 @@ expo build:web
 # clone web-build repo and remove all
 
 cd ..
-git clone https://github.com/sandeep-subramani/web-build.git -b main
+git clone git@github.com:sandeep-subramani/web-build.git -b main
 cd web-build
 rm -rf * | echo "y"
 cd ..
