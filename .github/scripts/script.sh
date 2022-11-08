@@ -13,8 +13,21 @@ npm install
 
 npm install -g expo-cli
 
-# build generation and check
+# build generation
 
 expo build:web
+
+# clone web-build repo and remove all
+
+cd ..
+git clone https://github.com/sandeep-subramani/web-build.git -b main
 cd web-build
-ls
+rm -rf * | echo "y"
+cd ..
+
+# copy new build and paste in web-build cloned folder and check status...
+
+cd GitHubAutomation/web-build
+cp -R ./* ../../web-build/
+cd ../../web-build
+git status
