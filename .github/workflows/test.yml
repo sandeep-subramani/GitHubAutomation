@@ -7,7 +7,5 @@ jobs:
       - uses: actions/checkout@v2.5.0
       - run: chmod 777 ./.github/scripts/script.sh
       - run: ./.github/scripts/script.sh
-      - uses: actions/checkout@v2.5.0
-        with: 
-          repository: sandeep-subramani/web-build
-      - run: chmod 777 ./.github/scripts/script2.sh
+      - run: echo "CONTENTS OF GIT_HUB_AUTOMATION"
+      - run: ls
