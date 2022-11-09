@@ -20,3 +20,6 @@ npm install -g n
 # echo "web building complete..."
 
 npm -v && node -v
+
+cd .. 
+ls
