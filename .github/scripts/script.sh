@@ -17,9 +17,16 @@ npm install -g expo-cli
 
 expo build:web
 
-cp -R ./web-build ../
-
 cd ..
-ls
+mkdir new_build
+cp -R ./GitHubAutomation/web-build ./new_build/.
+
 rm -rf GitHubAutomation
+echo "CONTENTS OF SOURCE FOLDER"
 ls
+
+cd new_build
+echo "CONTENTS OF NEW_BUILD"
+
+cd web_build
+echo "CONTENTS OF WEB_BUILD"
