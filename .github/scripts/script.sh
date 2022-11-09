@@ -27,6 +27,4 @@ ls
 
 cd new_build
 echo "CONTENTS OF NEW_BUILD"
-
-cd web_build
-echo "CONTENTS OF WEB_BUILD"
+ls
