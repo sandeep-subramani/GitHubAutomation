@@ -28,3 +28,7 @@ ls
 cd new_build
 echo "CONTENTS OF NEW_BUILD"
 ls
+
+cd web-build
+echo "CONTENTS OF WEB-BUILD"
+ls
