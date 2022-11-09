@@ -5,21 +5,21 @@
 npm install -g npm
 npm install -g n
 
-# # installing npm packages
+# installing npm packages
 
-# npm install
+npm install
 
-# # installing expo-cli
+# installing expo-cli
 
-# npm install -g expo-cli
+npm install -g expo-cli
 
-# # build generation
+# build generation
 
-# expo build:web
-# cd ..
-# echo "web building complete..."
+expo build:web
 
-npm -v && node -v
+cp -R ./web-build ../
 
-cd .. 
+cd ..
+ls
+rm -rf GitHubAutomation
 ls
